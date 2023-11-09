@@ -1,7 +1,7 @@
 # Project Title: Breast Cancer Image Classification
 
 ## Overview
-This project aims to compare two different approaches for classifying breast cancer images as benign or malignant. The two approaches involve using a Dense classifier and a pre-trained VGG16 model for feature extraction, followed by XGBoost for the final classification. The project focuses on evaluating the performance of these two methods in terms of accuracy, speed, and resource requirements.
+This project aims to compare two different approaches for classifying breast cancer images as benign or malignant. The two approaches involve using a Dense classifier and a pre-trained VGG16 and ResNet model for feature extraction, followed by XGBoost for the final classification. The project focuses on evaluating the performance of these two methods in terms of accuracy, speed, and resource requirements.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -33,7 +33,7 @@ The dataset used for this project is not included in this repository due to its 
 ### Approach 1: Dense Classifier
 The first approach involves building a custom Dense neural network that directly takes breast cancer images as input. The network is trained to classify the images into benign or malignant categories.
 
-### Approach 2: VGG16 + XGBoost
+### Approach 2: VGG16 and ResNe + XGBoost
 The second approach uses a pre-trained VGG16 model for feature extraction. The features extracted from the VGG16 model are then used as input to an XGBoost classifier for the final classification.
 
 ## Usage
